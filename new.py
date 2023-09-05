@@ -1,5 +1,6 @@
 # Count number of persons of age above 60 and below 90
 age = []
+#this is comment by kazuto
 add = 0
 person = int(input("Enter the number of persons : "))
 print(f"Now enter the {person} of persons")
