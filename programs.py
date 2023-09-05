@@ -78,19 +78,17 @@
 
 
 
-# # import itertools
+import itertools
 
-# # # Create a list of numbers
-# # numbers = [4, 5, 6]
+# Create a list of numbers
+numbers = [4, 5, 6]
 
-# # # Generate all possible combinations of length 1 to 3
-# # for r in range(1, len(numbers) + 1):
-# #     combinations = list(itertools.combinations(numbers, r))
-# #     for combo in combinations:
-# #         print(combo)
-
-
-
+# Generate all possible combinations of length 1 to 3
+for r in range(1, len(numbers) + 1):
+    combinations = list(itertools.combinations(numbers, r))
+    for combo in combinations:        
+        print(combo)
+ 
 print("Entered NASA Data base....Successful")
 
 
